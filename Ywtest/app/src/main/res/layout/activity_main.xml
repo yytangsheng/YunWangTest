@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ywtest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_chatting"
+        android:text="打开聊天界面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_Conversation"
+        android:text="打开回话列表"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_create_group"
+        android:text="创建群"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_out"
+        android:text="退出登录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
